@@ -1,0 +1,120 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html { 
+   background: hsl(47, 88%, 63%) no-repeat center center fixed; 
+   background-size: cover;
+}
+
+.mainbox {
+   display: flex;
+}
+
+.mainboxone{
+   height: 500px;
+   width: 400px;
+   background-color: hsl(0, 0%, 7%);
+   position: absolute;
+   top: 52%;
+   left: 51%;
+   transform: translate(-50%, -50%);
+   border-radius: 5%;
+}
+
+.mainboxtwo{
+   height: 500px;
+   width: 400px;
+   background-color: hsl(0, 0%, 100%);
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   border-radius: 5%;
+}
+.picone{
+   width: 400px;
+   height: 200px;
+   margin-top: 20px;
+}
+
+button{
+   background-color: hsl(47, 91%, 49%) ;
+   font-weight: 800;
+   width: 100px;
+   height: 30px;
+   border-radius: 10%;
+   margin-left: 30px;
+   margin-top: 10px;
+   cursor: pointer;
+   padding-top: 3px;
+   border-color: hsl(47, 91%, 49%);
+}
+
+.boxthree{
+   margin-left: 30px;
+}
+.publish{
+   color: hsl(0, 2%, 38%);
+   font-size: small;
+   margin-top: 10px;
+}
+
+.foundation{
+   color: hsl(0, 0%, 7%);
+   font-size: x-large;
+   margin-top: 10px;
+}
+
+.lang{
+   color: hsl(0, 0%, 50%);
+   margin-top: 10px;
+}
+
+.lastleg{
+   display: flex;
+   margin-top: 25px;
+}
+
+.pictwo{
+   height: 30px;
+   width: 30px;
+}
+
+.greg{
+   padding-left: 15px;
+   padding-top: 5px;
+   font-weight: 800;
+   font-family: 'Times New Roman', Times, serif;
+   color:  hsl(0, 0%, 7%);
+}
+
+@media (max-width: 565px) {
+   .container{
+     width: 400px;
+   }
+ }
+ 
+ @media (max-width: 400px) {
+   .container{
+     width: 375px;
+   }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
